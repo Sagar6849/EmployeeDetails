@@ -7,7 +7,7 @@ namespace EmployeeTask.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<City> Cities { get; set; }
+        public DbSet<EmployeeModel> Employees { get; set; }
+        public DbSet<CityModel> Cities { get; set; }
     }
 }

@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace EmployeeTask.Models
+namespace MVCTask.Models
 {
-    public class City
+    public class CityModel
     {
-        [Key]
-        public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }

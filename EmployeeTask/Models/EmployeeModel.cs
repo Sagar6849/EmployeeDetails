@@ -4,9 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeTask.Models
 {
-    public class Employee
+    public class EmployeeModel
     {
-        public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -27,7 +26,7 @@ namespace EmployeeTask.Models
         public int CityId { get; set; } 
         
         [ForeignKey("CityId")]
-        public City City { get; set; }
+        public CityModel CityModel { get; set; }
 
         [Required]
         public string Address { get; set; }
