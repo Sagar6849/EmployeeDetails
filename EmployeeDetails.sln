@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTask", "EmployeeTask\WebApiTask.csproj", "{07610E5A-01A5-4AA8-AC6A-806F081B908B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{2C0A1BB4-1ADB-4C95-89B4-FA372915BCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask", "MVCTask\MVCTask.csproj", "{9F5CAB71-A92E-437A-A2B6-D3EB6234572A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07610E5A-01A5-4AA8-AC6A-806F081B908B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07610E5A-01A5-4AA8-AC6A-806F081B908B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07610E5A-01A5-4AA8-AC6A-806F081B908B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07610E5A-01A5-4AA8-AC6A-806F081B908B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5CAB71-A92E-437A-A2B6-D3EB6234572A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5CAB71-A92E-437A-A2B6-D3EB6234572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5CAB71-A92E-437A-A2B6-D3EB6234572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5CAB71-A92E-437A-A2B6-D3EB6234572A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07610E5A-01A5-4AA8-AC6A-806F081B908B} = {2C0A1BB4-1ADB-4C95-89B4-FA372915BCC6}
+		{9F5CAB71-A92E-437A-A2B6-D3EB6234572A} = {2C0A1BB4-1ADB-4C95-89B4-FA372915BCC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85348C36-5033-44FA-989D-35F6DE97AB2D}
+	EndGlobalSection
+EndGlobal
